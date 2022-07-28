@@ -11,13 +11,12 @@
   <!-- font awesome link -->
   <script src="https://kit.fontawesome.com/ff2986a973.js" crossorigin="anonymous"></script>
 
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
 
 <style>
-    .carousel-item img{
-        margin-top:100px;
-        width:100%;
-        height:700px;
-    }
+    
 </style>
 
 </head>
@@ -475,11 +474,84 @@
 
        
 
-        <section class="container rounded bg-primary my-5">
+        <section class=" my-5">
 
        <h1 class="text-center">Frequently Asked Questions</h1>
        <p class="text-center">It is a long established fact that a reader will be distracted by the readable <br>
         content of a page when looking at its layout.</p>
+
+        
+
+        <!-- accodion start -->
+        <div class="abc">
+          <div class="accordion  " id="accordionPanelsStayOpenExample">
+            <div class="accordion-item ">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item ">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item ">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item ">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item ">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+           
+            
+          </div>
+        </div>
+        <!-- accodion end -->
+        
 
         </section>
 
@@ -493,14 +565,14 @@
         <!-- company section -->
 
         <section>
-          <h1 class="text-center"> Trusted by over 800+ companies</h1>
-          <div>
-            <img src="images/company/company-1.png" alt="">
-            <img src="images/company/company-2.png" alt="">
-            <img src="images/company/company-3.png" alt="">
-            <img src="images/company/company-4.png" alt="">
-            <img src="images/company/company-5.png" alt="">
-            <img src="images/company/company-6.png" alt="">
+          <h1 class="text-center font-weight-bold"> Trusted by over 800+ companies</h1>
+          <div class="d-flex justify-content-between align-items-center mt-5">
+            <img class="h-100" src="images/company/company-1.png" alt="">
+            <img class="h-100" src="images/company/company-2.png" alt="">
+            <img class="h-100" src="images/company/company-3.png" alt="">
+            <img class="h-100" src="images/company/company-4.png" alt="">
+            <img class="h-100" src="images/company/company-5.png" alt="">
+            <img class="h-100" src="images/company/company-6.png" alt="">
           </div>
         </section>
        
@@ -509,7 +581,22 @@
         
     </main>
 
-    <br><br><br><br><br>
+    <!-- footer section -->
+
+    <footer class="text-white mt-5 d-flex flex-column justify-content-center align-items-center">
+      <h1 class="text-center">Pro Edu</h1>
+      <p class="text-center">Office 41, Zawaya Buildin, Ghala Muscat, <br>
+        Sultanate of Oman</p>
+        <p class=" text-center">Privacy Ploicy | Terms of use</p>
+
+        <div class="footer-icon">
+          <i class="fa-brands rounded fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+
+    </footer>
 
    
 
