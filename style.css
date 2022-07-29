@@ -6,6 +6,11 @@ body{
     margin-top:100px;
     width:100%;
     height:700px;
+    
+}
+.carosel-item{
+    background-color: #000000;
+    opacity: 0.2;
 }
 
 footer{
